@@ -1,0 +1,22 @@
+// colores
+
+$color-naranja: #e57c15;
+$color-celeste: #0892d9 ;
+$color-azul: #230d66  ;
+
+
+$color-gris: #94949b;
+$blanco: #ffffff;
+$negro: #000000;
+$color-gris-oscuro: #656464;
+
+// mixin parallax
+
+@mixin parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-bottom: 50px;
+}

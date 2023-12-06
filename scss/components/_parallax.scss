@@ -1,0 +1,75 @@
+.section1_2 {
+    height: 60vh;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    width: 100vw;
+
+    @media screen and (max-width: 900px) {
+        flex-direction: column-reverse;
+        height: auto;
+        width: 100vw;
+    }
+
+    .div_info {
+        width: 60%;
+        padding-left: 3rem;
+        padding-right: 3rem !important;
+        background-color: rgba($color: $color-naranja, $alpha: 0.30);
+
+        @media screen and (max-width: 900px) {
+            width: 100%;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            padding-bottom: 2rem;
+            padding-top: 2rem;
+            margin: 0;
+        }
+    }
+
+    .container {
+        height: 60vh;
+        width: 40%;
+        margin:0;
+        display: table;
+        z-index: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (max-width: 900px) {
+            width: 100%;
+            height: 25vh;
+        }
+
+        @media screen and (max-width: 992px) and (orientation: landscape) {
+                height: 45vh;
+            
+        }
+    }
+}
+
+.parallax_supervisores {
+    background-image: 
+        linear-gradient(
+            rgba($color: $color-azul, $alpha: 0.4),
+            rgba($color: $color-azul, $alpha: 0.4)
+        ),url("../../img/img_supervisores.webp");
+    // @include parallax;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.parallax_codigo {
+    background-image: 
+        linear-gradient(
+            rgba($color: $color-azul, $alpha: 0.4),
+            rgba($color: $color-azul, $alpha: 0.4)
+        ),url("../../img/img_codigo.webp");
+    // @include parallax;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}

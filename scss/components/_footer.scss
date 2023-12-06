@@ -1,0 +1,63 @@
+footer {
+    background-color: $color-naranja;
+    height: auto;
+    padding-top: 2rem 3rem;
+
+    .div_footer--datos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2rem 3rem;
+
+        @media screen and (max-width: 600px) {
+            flex-direction: column-reverse;
+            align-items: flex-start;
+            padding-top: 2rem;
+        }
+
+        .div_contacto {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                @media screen and (max-width: 600px) {
+                    padding-top: 2.5rem;
+                }
+        }
+
+        .p_footer {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            font-size: 1.7rem;
+            color:$blanco;
+            margin-bottom: 0.5rem;
+        }
+
+        .contacto_footer {
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 1.7rem;
+            color:$blanco;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .div_redes {
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        padding-top: 1rem;
+
+        .icono_redes {
+            font-size: 4rem;
+            color:white;
+        }
+
+        @media screen and (max-width: 600px) {
+            align-self: center;
+            align-items: center;
+            padding-top: 3rem;
+        }
+    }
+}

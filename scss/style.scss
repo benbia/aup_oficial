@@ -1,0 +1,43 @@
+// bases
+
+@import './bases/variables';
+
+//componentes
+@import './components/swiper';
+@import './components/basic';
+@import './components/header';
+@import './components/parallax';
+@import './components/footer';
+// @import './components/eventos';
+
+
+// inicialización 
+
+* {
+    padding: 0;
+    margin: 0;
+    font-display: swap;
+}
+
+html {
+    /* para que un rem quede en 10 px */
+    font-size: 62.5%; 
+    background-color: $blanco;
+    overflow-x: hidden;
+}
+
+// no seleccionable
+
+.no-seleccionable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
