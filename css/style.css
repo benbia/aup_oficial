@@ -189,6 +189,10 @@
   font-weight: 500;
 }
 
+.sin_linea {
+  margin: 0.5rem;
+}
+
 .ul_normal {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -539,6 +543,13 @@ nav {
 
 .parallax_estatutos {
   background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../../img/img_estatutos.webp");
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_aranceles {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../../img/img_aranceles.webp");
   background-size: 150%;
   background-repeat: no-repeat;
   background-size: cover;
