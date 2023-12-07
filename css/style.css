@@ -556,42 +556,42 @@ nav {
 }
 
 .parallax_supervisores {
-  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../../img/img_supervisores.webp");
+  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../img/img_supervisores.webp");
   background-size: 150%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .parallax_codigo {
-  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../../img/img_codigo.webp");
+  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../img/img_codigo.webp");
   background-size: 150%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .parallax_estatutos {
-  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../../img/img_estatutos.webp");
+  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../img/img_estatutos.webp");
   background-size: 150%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .parallax_aranceles {
-  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../../img/img_aranceles.webp");
+  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../img/img_aranceles.webp");
   background-size: 150%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .parallax_cuotas {
-  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../../img/img_cuotas.webp");
+  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../img/img_cuotas.webp");
   background-size: 150%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .parallax_biblio {
-  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../../img/img_biblio.webp");
+  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../img/img_biblio.webp");
   background-size: 150%;
   background-repeat: no-repeat;
   background-size: cover;
