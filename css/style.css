@@ -597,6 +597,20 @@ nav {
   background-size: cover;
 }
 
+.parallax_publicaciones {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../img/img_publicaciones.webp");
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_faq {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../img/img_faq.webp");
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 footer {
   background-color: #e57c15;
   height: auto;
@@ -656,6 +670,55 @@ footer .div_redes .icono_redes {
     align-items: center;
     padding-top: 3rem;
   }
+}
+
+.accordion {
+  background-color: rgba(35, 13, 102, 0.8);
+  color: #ffffff;
+  cursor: pointer;
+  padding: 2rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(35, 13, 102, 0.3);
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.active, .accordion:hover {
+  background-color: rgba(35, 13, 102, 0.5);
+}
+
+.panel {
+  padding: 0 2rem;
+  background-color: rgba(35, 13, 102, 0.1);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.borders {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.padding_faq {
+  padding-top: 2rem;
+}
+
+.flecha_faq {
+  width: 26px;
+  transition: all 0.3s ease;
+  font-size: 2.5rem;
+}
+
+.active .flecha_faq {
+  transform: rotate(180deg);
 }
 
 * {

@@ -1,0 +1,50 @@
+.accordion {
+    background-color: rgba($color: $color-azul, $alpha: 0.8);
+    color: $blanco;
+    cursor: pointer;
+    padding: 2rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba($color: $color-azul, $alpha: 0.3);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgba($color: $color-azul, $alpha: 0.5);
+  }
+  
+  .panel {
+    padding: 0 2rem;
+    background-color:rgba($color: $color-azul, $alpha: 0.1);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  
+
+  .borders {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+  }
+
+  .padding_faq {
+    padding-top: 2rem;
+  }
+
+  .flecha_faq {
+    width: 26px;
+    transition: all 0.3s ease;
+    font-size: 2.5rem;
+  }
+
+  .active .flecha_faq {
+    transform: rotate(180deg);
+  }

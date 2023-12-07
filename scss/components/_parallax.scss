@@ -121,3 +121,27 @@
     background-repeat: no-repeat;
     background-size:cover;
 }
+
+.parallax_publicaciones {
+    background-image: 
+        linear-gradient(
+            rgba($color: $color-azul, $alpha: 0.4),
+            rgba($color: $color-azul, $alpha: 0.4)
+        ),url("../img/img_publicaciones.webp");
+    // @include parallax;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.parallax_faq {
+    background-image: 
+        linear-gradient(
+            rgba($color: $color-azul, $alpha: 0.4),
+            rgba($color: $color-azul, $alpha: 0.4)
+        ),url("../img/img_faq.webp");
+    // @include parallax;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
