@@ -287,6 +287,13 @@
   color: #000000;
 }
 
+.padding_beneficios {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
 nav {
   position: fixed;
   z-index: 1000;
@@ -606,6 +613,13 @@ nav {
 
 .parallax_faq {
   background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../img/img_faq.webp");
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_beneficios {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../img/img_beneficios.webp");
   background-size: 150%;
   background-repeat: no-repeat;
   background-size: cover;
