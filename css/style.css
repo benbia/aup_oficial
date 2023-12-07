@@ -590,6 +590,13 @@ nav {
   background-size: cover;
 }
 
+.parallax_biblio {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.4), rgba(35, 13, 102, 0.4)), url("../../img/img_biblio.webp");
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 footer {
   background-color: #e57c15;
   height: auto;
