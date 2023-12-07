@@ -1,4 +1,4 @@
-.swiper_supervisores {
+.swiper_general {
   width: 100%;
   height: auto;
   margin-top: 1.5rem;
@@ -7,10 +7,10 @@
   align-items: center;
   padding-bottom: 2.8rem;
 }
-.swiper_supervisores .swiper-wrapper {
+.swiper_general .swiper-wrapper {
   height: auto;
 }
-.swiper_supervisores .swiper-wrapper .swiper-slide {
+.swiper_general .swiper-wrapper .swiper-slide {
   height: auto;
   background: #ffffff;
   border-radius: 50px;
@@ -21,38 +21,30 @@
   margin-bottom: 4rem;
   box-shadow: 7px 7px 14px #d9d9d9, -7px -7px 14px #ffffff;
 }
-.swiper_supervisores .swiper-wrapper .swiper-slide.swiper-slide-active {
+.swiper_general .swiper-wrapper .swiper-slide.swiper-slide-active {
   transform: scale(0.9);
   opacity: 1;
 }
 @media screen and (max-width: 576px) {
-  .swiper_supervisores .swiper-wrapper .swiper-slide {
+  .swiper_general .swiper-wrapper .swiper-slide {
     width: 80%;
   }
 }
-.swiper_supervisores .swiper-wrapper .swiper-slide .link_ul {
+.swiper_general .swiper-wrapper .swiper-slide .link_ul {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1.6rem;
   text-decoration: none;
   color: #000000;
 }
-.swiper_supervisores .swiper-wrapper .swiper-slide .h4 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 1.8rem;
-  color: #230d66;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-.swiper_supervisores .swiper-wrapper .swiper-slide .icono {
+.swiper_general .swiper-wrapper .swiper-slide .icono {
   font-size: 4rem;
   color: #230d66;
   display: flex;
   justify-content: center;
   margin-top: 2rem;
 }
-.swiper_supervisores .swiper-wrapper .swiper-slide .icono i {
+.swiper_general .swiper-wrapper .swiper-slide .icono i {
   padding: 1.5rem;
   border-radius: 50%;
   border-radius: 50%;
@@ -61,6 +53,15 @@
   align-self: center;
   color: #230d66;
   margin-bottom: 1.7rem;
+}
+
+.h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #230d66;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .contacto_supervisores {
@@ -733,6 +734,42 @@ footer .div_redes .icono_redes {
 
 .active .flecha_faq {
   transform: rotate(180deg);
+}
+
+.div_convenios {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+}
+.div_convenios .convenio {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  height: auto !important;
+  justify-content: center;
+}
+@media screen and (max-width: 900px) {
+  .div_convenios .convenio {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .div_convenios .convenio {
+    width: 90%;
+  }
+}
+.div_convenios .convenio .link_convenio {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.div_convenios .convenio .link_convenio img {
+  max-width: 80%;
+}
+.div_convenios .convenio .centro {
+  text-align: center;
 }
 
 * {

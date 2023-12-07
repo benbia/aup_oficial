@@ -21,9 +21,9 @@ jsArrow.onclick = function() {
 navLinks.classList.toggle("show2");
 }
 
-// swiper supervisores
+// swiper supervisores y beneficios
 
-const swiper = new Swiper('.swiper_supervisores', {
+const swiper = new Swiper('.swiper_general', {
   roundLengths: true,
   loop: false,
   spaceBetween:20,

@@ -1,4 +1,4 @@
-.swiper_supervisores {
+.swiper_general {
 
     width: 100%;
     height: auto;
@@ -40,14 +40,6 @@
                     color: $negro; 
             }
                 
-            .h4 {
-                    font-family: 'Poppins', sans-serif;
-                    font-weight: 600;
-                    font-size: 1.8rem;
-                    color:$color-azul;
-                    text-align: center;
-                    margin-bottom: 1rem;
-                }
                 
                 .icono {
                     font-size: 4rem;
@@ -70,6 +62,15 @@
                 }
         }
     }
+}
+
+.h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color:$color-azul;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .contacto_supervisores {

@@ -1,0 +1,39 @@
+.div_convenios {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+
+    .convenio {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        height: auto !important;
+        justify-content: center;
+
+        @media screen and (max-width: 900px) {
+            width: 45%;
+        }
+
+        @media screen and (max-width: 600px) {
+            width: 90%;
+        }
+
+        .link_convenio {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+
+            img {
+                max-width: 80%;
+                
+
+            }
+        }
+
+        .centro {
+            text-align: center;
+        }
+    }
+}
