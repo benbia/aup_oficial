@@ -259,6 +259,34 @@
   border-radius: 25px;
 }
 
+.h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+.h3 .span {
+  font-size: 1.6;
+  font-weight: 400;
+}
+
+.strong_title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.link_ul, .link_interno {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #000000;
+}
+
 nav {
   position: fixed;
   z-index: 1000;
@@ -627,6 +655,7 @@ html {
   font-size: 62.5%;
   background-color: #ffffff;
   overflow-x: hidden;
+  word-wrap: break-word;
 }
 
 .no-seleccionable {
