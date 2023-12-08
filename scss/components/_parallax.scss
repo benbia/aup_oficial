@@ -169,3 +169,27 @@
     background-repeat: no-repeat;
     background-size:cover;
 }
+
+.parallax_eventos {
+    background-image: 
+        linear-gradient(
+            rgba($color: $color-azul, $alpha: 0.4),
+            rgba($color: $color-azul, $alpha: 0.4)
+        ),url("../img/img_eventos.webp");
+    // @include parallax;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.parallax_psicomotricistas {
+    background-image: 
+        linear-gradient(
+            rgba($color: $color-azul, $alpha: 0.4),
+            rgba($color: $color-azul, $alpha: 0.4)
+        ),url("../img/img_psicomotricistas.webp");
+    // @include parallax;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
