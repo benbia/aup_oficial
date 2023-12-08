@@ -868,7 +868,8 @@ footer .div_redes .icono_redes {
 .div_convenios .convenio .link_convenio img {
   max-width: 80%;
 }
-.div_convenios .convenio .centro {
+
+.centro {
   text-align: center;
 }
 
@@ -956,6 +957,25 @@ footer .div_redes .icono_redes {
 }
 .afiche:hover {
   color: rgba(8, 146, 217, 0.7) !important;
+}
+
+.publicacion {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.publicacion .link_publicacion {
+  background-color: #0892d9;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-top: 1rem;
+  text-align: center;
+  text-decoration: none;
 }
 
 .flyer_2023_entornos {
@@ -1074,6 +1094,36 @@ footer .div_redes .icono_redes {
 }
 @media screen and (max-width: 600px) {
   .flyer_2023_terapia {
+    height: 200px;
+  }
+}
+
+.publicacion_encuesta {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/publicacion_encuesta.png");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .publicacion_encuesta {
+    height: 200px;
+  }
+}
+
+.publicacion_infancia {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/publicacion_infancia.png");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .publicacion_infancia {
     height: 200px;
   }
 }

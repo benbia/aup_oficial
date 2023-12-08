@@ -91,6 +91,29 @@
     }
 }
 
+// publicacion 
+
+.publicacion {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .link_publicacion {
+        background-color: $color-celeste;
+        border-radius: 25px;
+        padding: 1rem 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: $blanco;
+        margin-top: 1rem;
+        text-align: center;
+        text-decoration: none;
+    }
+
+}
+
 // fotos 
 
 .flyer_2023_entornos {
@@ -164,3 +187,25 @@
 
     @include foto_evento;
 }
+
+// publicaciones
+
+.publicacion_encuesta {
+    background-image: linear-gradient(
+            rgba($color-azul, 0.35),
+            rgba($color-azul, 0.35)
+        ),url("../img/publicacion_encuesta.png");
+
+    @include foto_evento;
+}
+
+.publicacion_infancia {
+    background-image: linear-gradient(
+            rgba($color-azul, 0.35),
+            rgba($color-azul, 0.35)
+        ),url("../img/publicacion_infancia.png");
+
+    @include foto_evento;
+}
+
+
