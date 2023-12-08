@@ -374,6 +374,27 @@
   padding-top: 1rem;
 }
 
+.comision {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 60%;
+  margin-top: 1rem;
+}
+@media screen and (max-width: 900px) {
+  table {
+    width: 100%;
+  }
+}
+
+table, th, td {
+  border: 1.7px solid #230d66;
+  border-collapse: collapse;
+  padding: 1rem;
+}
+
 nav {
   position: fixed;
   z-index: 1000;

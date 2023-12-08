@@ -224,3 +224,24 @@
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
+
+.comision {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 60%;
+    margin-top: 1rem;
+
+    @media screen and (max-width: 900px) {
+        width: 100%;
+         
+    }
+}
+
+table, th, td {
+    border: 1.7px solid $color-azul;
+    border-collapse: collapse;
+    padding: 1rem;
+  }
