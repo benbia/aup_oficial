@@ -73,3 +73,105 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+// pagina de eventos 
+
+const s_years = document.getElementById('s_years');
+const s_proximos = document.getElementById('s_proximos');
+const s_2023 = document.getElementById('s_2023');
+const s_2022 = document.getElementById('s_2022');
+
+// ida
+
+function segundaSlide() {
+  s_proximos.classList.toggle('hidden'); // no la tiene, entonces la agrega
+  s_2023.classList.toggle('hidden');     // la tiene y la quita
+}
+  
+function tercerSlide() {
+  s_2023.classList.toggle('hidden');   // no la tiene y la agrega
+  s_2022.classList.toggle('hidden');   // la tiene y la quita
+}
+  
+  // vuelta
+  
+function segundaSlideVuelta() {
+  s_2022.classList.toggle('hidden');   // no la tiene y la agrega
+  s_2023.classList.toggle('hidden');   // la tiene y la quita
+  
+}
+  
+function primeraSlideVuelta() {
+  s_2023.classList.toggle('hidden');   // no la tiene y la agrega
+  s_proximos.classList.toggle('hidden');   // la tiene y la quita
+  
+}
+
+// swiper years 
+
+var swiper_years = new Swiper(".swiper_years", {
+
+  initialSlide: 0,
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+
+  a11y: {
+    prevSlideMessage: 'Previous slide',
+    nextSlideMessage: 'Next slide',
+  },
+
+  slidesPerView: 3,
+  centeredSlides: true,
+  roundLengths: true,
+  loop: false,
+  loopAdditionalSlides: 30,
+  spaceBetween:20,
+  mode: 'horizontal',
+  slideToClickedSlide: true,
+
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+  }
+
+});
+
+// slide funcion!
+
+var numeros = 3;
+
+swiper_years.on('slideChange', function () {
+  
+ if (this.activeIndex === 1 && (numeros==3 ||numeros==0)) { // ida segunda slide
+    segundaSlide();
+    numeros = 2;
+    console.log(numeros);
+
+   } else if (this.activeIndex === 1 && (numeros==1)){  // vuelta segunda slide
+     segundaSlideVuelta();
+     numeros = 2;
+    console.log(numeros);
+
+   } else if (this.activeIndex === 2)  {  // solo ida tercera slide
+       tercerSlide();
+       numeros = 1;
+       console.log(numeros);
+
+   } else if (this.activeIndex === 0 && numeros==2) {
+       primeraSlideVuelta();
+       numeros = 0;
+       console.log(numeros); // esto funciona osea la variable
+   }
+
+});
+

@@ -80,3 +80,106 @@
 
     word-wrap: break-word;
 }
+
+// *******************************************************EVENTOS*********************************************************
+//************************************************************************************************************************
+
+// swiper years!
+
+
+.swiper_years {
+    width: 100%;
+    height: auto;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.8rem;
+    box-sizing: border-box;
+    padding: 2rem !important;
+
+    .swiper-wrapper {
+        height: auto;
+
+        .swiper-slide {
+            height: auto;
+            border-radius: 50px;
+            background: $color-azul;
+            box-shadow:  7px 7px 14px #d9d9d9,
+                        -7px -7px 14px #ffffff;
+            box-sizing: border-box;
+            padding: 1.5rem 0rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition:all 200ms linear;
+            transform: scale(0.8);
+            opacity: 0.5;
+  
+            &.swiper-slide-active{
+            transform: scale(1.2);
+            opacity: 1;
+            }
+        }
+    }
+}
+
+.years {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    @media screen and (max-width: 800px) {
+        font-size: 2rem;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 1.5rem;
+    }
+}
+
+//swipers eventos-publicaciones-comisiones
+
+.swiper_proximos, .swiper_2023, .swiper_2022 {
+    width: 100%;
+    height: auto;
+    margin-top: 1.5rem;
+
+    .swiper-wrapper {
+        
+
+        .swiper-slide {
+
+            height: auto;
+            background: $blanco;
+            border-radius: 50px;
+            border-radius: 50px;
+            transition:all 200ms linear;
+            transform: scale(0.7);
+            opacity: 0.5;
+            margin-bottom: 4rem;
+            
+
+            margin-bottom: 2rem;
+
+            &.swiper-slide-active{
+            transform: scale(0.9);
+            opacity: 1;
+            }
+
+            
+
+        }
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+
+

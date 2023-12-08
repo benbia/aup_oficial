@@ -1,0 +1,166 @@
+.no_eventos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+
+    .logo_eventos {
+        width: 80%;
+
+        @media screen and (max-width: 600px) {
+            width: 90%;
+        }
+
+        @media screen and (max-width: 600px) and (orientation: landscape) {
+            width: 40%;
+        }
+    }
+
+    .p_normal {
+        text-align: center;
+    }
+}
+
+.no_sombra {
+    box-shadow: none !important;
+}
+
+.gris {
+    color: $color-gris;
+}
+
+.evento_sombra {
+    box-shadow:  6px 6px 12px #c9c9c9,
+             -6px -6px 12px #ffffff;
+    border-radius: 25px;
+}
+
+.left {
+    text-align: left;
+}
+
+.evento {
+    width: 100%;
+    height: auto;
+
+    .informacion {
+        padding: 3rem;
+
+        .titulo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+
+            @media screen and (max-width: 600px) {
+                flex-direction: column-reverse;
+                gap: 20px;
+            }
+
+            .fecha {
+                background-color: $color-celeste;
+                border-radius: 25px;
+                padding: 1rem 2rem;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 600;
+                font-size: 1.5rem;
+                color: $blanco;
+                margin-left: 1rem;
+                text-align: center;
+
+                @media screen and (max-width: 600px) {
+                    justify-self: center;
+                    width: 100%;
+                    text-align: center;
+                    font-size: 1.6rem;
+                }
+            }
+        }
+
+    }
+}
+
+// afiche
+
+.afiche {
+    color: rgba($color-celeste, 0.9) !important;
+
+    &:hover {
+        color: rgba($color-celeste, 0.7) !important;
+        
+    }
+}
+
+// fotos 
+
+.flyer_2023_entornos {
+    background-image: linear-gradient(
+            rgba($color-azul, 0.35),
+            rgba($color-azul, 0.35)
+        ),url("../img/flyer_2023_entornos.jpg");
+
+    @include foto_evento;
+}
+
+.flyer_2023_masajes {
+    background-image: linear-gradient(
+            rgba($color-azul, 0.35),
+            rgba($color-azul, 0.35)
+        ),url("../img/flyer_2023_masajes.jpg");
+
+    @include foto_evento;
+}
+
+.flyer_2023_crianza {
+    background-image: linear-gradient(
+            rgba($color-azul, 0.35),
+            rgba($color-azul, 0.35)
+        ),url("../img/flyer_2023_crianza.jpg");
+
+    @include foto_evento;
+}
+
+.flyer_2023_relajacion {
+    background-image: linear-gradient(
+            rgba($color-azul, 0.35),
+            rgba($color-azul, 0.35)
+        ),url("../img/flyer_2023_relajacion.jpeg");
+
+    @include foto_evento;
+}
+
+.flyer_2023_posgrado {
+    background-image: linear-gradient(
+            rgba($color-azul, 0.35),
+            rgba($color-azul, 0.35)
+        ),url("../img/flyer_2023_posgrado.jpeg");
+
+    @include foto_evento;
+}
+
+.flyer_2023_juguetes {
+    background-image: linear-gradient(
+            rgba($color-azul, 0.35),
+            rgba($color-azul, 0.35)
+        ),url("../img/flyer_2023_juguetes.jpeg");
+
+    @include foto_evento;
+}
+
+.flyer_2023_ciclo {
+    background-image: linear-gradient(
+            rgba($color-azul, 0.35),
+            rgba($color-azul, 0.35)
+        ),url("../img/flyer_2023_ciclo.jpeg");
+
+    @include foto_evento;
+}
+
+.flyer_2023_terapia {
+    background-image: linear-gradient(
+            rgba($color-azul, 0.35),
+            rgba($color-azul, 0.35)
+        ),url("../img/flyer_2023_terapia.jpeg");
+
+    @include foto_evento;
+}
