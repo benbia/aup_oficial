@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .swiper_general {
   width: 100%;
   height: auto;
@@ -253,7 +254,7 @@
 @media screen and (max-width: 576px) {
   .h2 {
     margin-bottom: 3.5rem;
-    font-size: 3.7rem;
+    font-size: 3rem;
   }
 }
 
@@ -1115,6 +1116,246 @@ footer .div_redes .icono_redes {
 }
 @media screen and (max-width: 600px) {
   .flyer_2023_terapia {
+    height: 200px;
+  }
+}
+
+.flyer_2022_42años {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_42años.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_42años {
+    height: 200px;
+  }
+}
+
+.flyer_2022_rivera {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_rivera.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_rivera {
+    height: 200px;
+  }
+}
+
+.flyer_2022_psicomotriz {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_psicomotriz.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_psicomotriz {
+    height: 200px;
+  }
+}
+
+.flyer_2022_manos {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_manos.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_manos {
+    height: 200px;
+  }
+}
+
+.flyer_2022_musica {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_musica.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_musica {
+    height: 200px;
+  }
+}
+
+.flyer_2022_arte {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_arte.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_arte {
+    height: 200px;
+  }
+}
+
+.flyer_2022_beca {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_beca.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_beca {
+    height: 200px;
+  }
+}
+
+.flyer_2022_conferencia {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_conferencia.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_conferencia {
+    height: 200px;
+  }
+}
+
+.flyer_2022_comisiones {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_comisiones.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_comisiones {
+    height: 200px;
+  }
+}
+
+.flyer_2022_sensopercepcion {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_sensopercepcion.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_sensopercepcion {
+    height: 200px;
+  }
+}
+
+.flyer_2022_intervencion {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_intervencion.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_intervencion {
+    height: 200px;
+  }
+}
+
+.flyer_2022_terapia {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_terapia.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_terapia {
+    height: 200px;
+  }
+}
+
+.flyer_2022_actualizacion {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_actualizacion.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_actualizacion {
+    height: 200px;
+  }
+}
+
+.flyer_2022_clinica {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_clinica.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_clinica {
+    height: 200px;
+  }
+}
+
+.flyer_2022_relajacion {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_relajacion.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_relajacion {
+    height: 200px;
+  }
+}
+
+.flyer_2022_juego {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2022_juego.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2022_juego {
     height: 200px;
   }
 }
