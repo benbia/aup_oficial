@@ -261,11 +261,11 @@
 }
 @media screen and (max-width: 600px) {
   .h1 {
-    font-size: 9vw;
+    font-size: 9.5vw;
     padding: 0;
     padding-top: 0;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 }
 @media screen and (max-width: 992px) and (orientation: landscape) {
