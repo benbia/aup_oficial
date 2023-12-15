@@ -202,11 +202,17 @@
     width: 100% !important;
   }
 }
-.section1 .div_home .img_home {
+.section1 .div_home .half_home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section1 .div_home .half_home .img_home {
   justify-self: center !important;
+  width: 100%;
 }
 @media screen and (max-width: 992px) and (orientation: landscape) {
-  .section1 .div_home .img_home {
+  .section1 .div_home .half_home .img_home {
     display: none;
   }
 }
@@ -432,6 +438,15 @@ table, th, td {
   border: 1.7px solid #230d66;
   border-collapse: collapse;
   padding: 1rem;
+}
+
+.p_pie--inicio {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #e57c15;
+  text-align: center;
+  margin-top: -1rem;
 }
 
 nav {

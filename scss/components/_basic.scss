@@ -32,11 +32,19 @@
             
         }
 
-        .img_home {
-            justify-self: center !important;
+        .half_home {
 
-            @media screen and (max-width: 992px) and (orientation: landscape) {
-                display: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .img_home {
+                justify-self: center !important;
+                width: 100%;
+    
+                @media screen and (max-width: 992px) and (orientation: landscape) {
+                    display: none;
+                }
             }
         }
     }
@@ -264,3 +272,11 @@ table, th, td {
     padding: 1rem;
   }
 
+.p_pie--inicio {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color:$color-naranja;
+    text-align: center;
+    margin-top: -1rem;
+}
