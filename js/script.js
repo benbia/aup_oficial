@@ -175,3 +175,25 @@ swiper_years.on('slideChange', function () {
 
 });
 
+// SWIPER INICIO 
+
+const swiper_inicio = new Swiper('.swiper_inicio', {
+  roundLengths: true,
+  loop: true,
+  spaceBetween:20,
+  mode: 'horizontal',
+  preventClicks: true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 4000,
+  },
+
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true
+  },
+ });
+
+
+

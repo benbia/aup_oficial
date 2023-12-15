@@ -180,6 +180,32 @@
     display: none !important;
 }
 
+// *******************************************************EVENTOS*********************************************************
+//************************************************************************************************************************
+
+// swiper years!
+
+.swiper_inicio {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2.8rem;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    .swiper-wrapper {
+        height: auto;
+
+        .swiper-slide {
+            height: auto !important;
+            margin-bottom: 3.5rem !important;
+        }
+    }
+
+    --swiper-pagination-color: var(--ion-color-primary, #230d66);
+}
+
 
 
 
