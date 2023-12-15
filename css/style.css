@@ -448,6 +448,11 @@ table, th, td {
   text-align: center;
   margin-top: -1rem;
 }
+@media screen and (max-width: 992px) and (orientation: landscape) {
+  .p_pie--inicio {
+    display: none;
+  }
+}
 
 nav {
   position: fixed;

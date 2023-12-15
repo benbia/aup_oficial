@@ -279,4 +279,8 @@ table, th, td {
     color:$color-naranja;
     text-align: center;
     margin-top: -1rem;
+
+    @media screen and (max-width: 992px) and (orientation: landscape) {
+        display: none;
+    }
 }
