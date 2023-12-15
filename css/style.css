@@ -743,6 +743,17 @@ nav {
   }
 }
 
+.pie_de_foto {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #ffffff;
+  display: flex;
+  align-items: flex-end !important;
+  justify-content: flex-start !important;
+  padding-left: 0.5rem;
+}
+
 .height_75 {
   height: 75vh !important;
 }
