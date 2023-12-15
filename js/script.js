@@ -185,7 +185,7 @@ const swiper_inicio = new Swiper('.swiper_inicio', {
   preventClicks: true,
   centeredSlides: true,
   autoplay: {
-    delay: 4000,
+    delay: 4500,
   },
 
   pagination: {
