@@ -230,7 +230,16 @@
   }
 }
 
-.news_inicio {
+.importante {
+  display: flex;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 600px) {
+  .importante {
+    justify-content: center;
+  }
+}
+.importante .news_inicio {
   background-color: #230d66;
   border-radius: 25px;
   padding: 1rem 2rem;
@@ -241,6 +250,11 @@
   margin-bottom: 2rem;
   color: #ffffff;
   text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .importante .news_inicio {
+    width: 100%;
+  }
 }
 
 .link_home {
