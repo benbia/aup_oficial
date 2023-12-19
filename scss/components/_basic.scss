@@ -57,6 +57,10 @@
     color:$color-gris-oscuro;
     margin-bottom: 1rem;
 
+    strong {
+        font-weight: 500; 
+    }
+
     @media screen and (max-width: 900px) {
         margin-bottom: 3rem;
     }

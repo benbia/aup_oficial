@@ -224,6 +224,9 @@
   color: #656464;
   margin-bottom: 1rem;
 }
+.p_home strong {
+  font-weight: 500;
+}
 @media screen and (max-width: 900px) {
   .p_home {
     margin-bottom: 3rem;
