@@ -644,13 +644,14 @@ nav {
     text-align: left !important;
   }
   .navbar_links {
-    position: fixed;
+    position: fixed !important;
     top: 0px;
     left: -100%;
     display: block;
     width: auto;
     min-width: 35%;
     height: 100%;
+    overflow-y: scroll;
     background-color: #ffffff;
     line-height: 40px;
     padding: 20px;
@@ -659,14 +660,14 @@ nav {
     box-shadow: 0 5px 10px rgba(148, 148, 155, 0.1);
     transition: all 0.5s ease;
     z-index: 1000;
-    overflow-y: scroll;
   }
   .navbar_links .links {
     flex-direction: column;
     align-items: start !important;
     padding-bottom: 1rem;
-    overflow-y: scroll;
     height: auto !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
   .navbar_links .links li {
     display: block !important;
@@ -682,12 +683,12 @@ nav {
     box-shadow: none !important;
     align-items: start !important;
     width: 100%;
-    overflow-y: scroll;
   }
   .submenu li {
     padding: 0 !important;
     border-bottom: none !important;
     align-self: baseline;
+    overflow-x: hidden;
   }
   .submenu li a {
     color: rgba(229, 124, 21, 0.8);
