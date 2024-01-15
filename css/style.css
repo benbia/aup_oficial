@@ -774,7 +774,7 @@ nav {
     height: 25vh;
   }
 }
-@media screen and (max-width: 992px) and (orientation: landscape) {
+@media screen and (max-width: 900px) and (orientation: landscape) {
   .section1_2 .container {
     height: 45vh;
   }
@@ -809,7 +809,7 @@ nav {
     height: 25vh !important;
   }
 }
-@media screen and (max-width: 992px) and (orientation: landscape) {
+@media screen and (max-width: 900px) and (orientation: landscape) {
   .height_75--container {
     height: 45vh;
   }
