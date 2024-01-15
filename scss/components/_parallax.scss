@@ -43,7 +43,7 @@
             height: 25vh;
         }
 
-        @media screen and (max-width: 992px) and (orientation: landscape) {
+        @media screen and (max-width: 900px) and (orientation: landscape) {
                 height: 45vh;
             
         }
@@ -81,7 +81,7 @@
         height: 25vh !important;
     }
 
-    @media screen and (max-width: 992px) and (orientation: landscape) {
+    @media screen and (max-width: 900px) and (orientation: landscape) {
             height: 45vh;
     
     }
