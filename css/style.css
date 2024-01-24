@@ -1119,6 +1119,7 @@ footer .div_redes .icono_redes {
 @media screen and (max-width: 600px) {
   .evento .informacion .titulo .fecha {
     justify-self: center;
+    margin-left: 0;
     width: 100%;
     text-align: center;
     font-size: 1.6rem;
