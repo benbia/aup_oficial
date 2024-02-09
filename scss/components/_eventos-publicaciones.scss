@@ -336,6 +336,15 @@
     @include foto_evento;
 }
 
+.flyer_2024_caba {
+    background-image: linear-gradient(
+            rgba($color-azul, 0.35),
+            rgba($color-azul, 0.35)
+        ),url("../img/flyer_2024_caba.jpg");
+
+    @include foto_evento;
+}
+
 
 // publicaciones
 
