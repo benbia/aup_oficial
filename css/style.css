@@ -1527,6 +1527,36 @@ footer .div_redes .icono_redes {
   }
 }
 
+.flyer_2024_aportes {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2024_aportes.jpg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2024_aportes {
+    height: 200px;
+  }
+}
+
+.flyer_2024_encuentro {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2024_encuentro.jpg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2024_encuentro {
+    height: 200px;
+  }
+}
+
 .publicacion_encuesta {
   background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/publicacion_encuesta.png");
   width: 100%;
