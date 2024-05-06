@@ -363,6 +363,33 @@
     @include foto_evento;
 }
 
+.flyer_2024_cartografia {
+    background-image: linear-gradient(
+            rgba($color-azul, 0.35),
+            rgba($color-azul, 0.35)
+        ),url("../img/flyer_2024_cartografia.png");
+
+    @include foto_evento;
+}
+
+.flyer_2024_discusion {
+    background-image: linear-gradient(
+            rgba($color-azul, 0.35),
+            rgba($color-azul, 0.35)
+        ),url("../img/flyer_2024_discusion.jpg");
+
+    @include foto_evento;
+}
+
+.flyer_2024_elecciones {
+    background-image: linear-gradient(
+            rgba($color-azul, 0.35),
+            rgba($color-azul, 0.35)
+        ),url("../img/flyer_2024_elecciones.jpeg");
+
+    @include foto_evento;
+}
+
 
 // publicaciones
 

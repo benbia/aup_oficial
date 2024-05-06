@@ -1557,6 +1557,51 @@ footer .div_redes .icono_redes {
   }
 }
 
+.flyer_2024_cartografia {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2024_cartografia.png");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2024_cartografia {
+    height: 200px;
+  }
+}
+
+.flyer_2024_discusion {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2024_discusion.jpg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2024_discusion {
+    height: 200px;
+  }
+}
+
+.flyer_2024_elecciones {
+  background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/flyer_2024_elecciones.jpeg");
+  width: 100%;
+  height: 30vh;
+  background-size: 100%;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  .flyer_2024_elecciones {
+    height: 200px;
+  }
+}
+
 .publicacion_encuesta {
   background-image: linear-gradient(rgba(35, 13, 102, 0.35), rgba(35, 13, 102, 0.35)), url("../img/publicacion_encuesta.png");
   width: 100%;

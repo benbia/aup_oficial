@@ -77,33 +77,40 @@ for (i = 0; i < acc.length; i++) {
 
 const s_years = document.getElementById('s_years');
 const s_proximos = document.getElementById('s_proximos');
+const s_2024 = document.getElementById('s_2024');
 const s_2023 = document.getElementById('s_2023');
 const s_2022 = document.getElementById('s_2022');
 
 // ida
 
 function segundaSlide() {
-  s_proximos.classList.toggle('hidden'); // no la tiene, entonces la agrega
-  s_2023.classList.toggle('hidden');     // la tiene y la quita
+  s_proximos.classList.toggle('hidden')
+  s_2024.classList.toggle('hidden')
 }
-  
-function tercerSlide() {
-  s_2023.classList.toggle('hidden');   // no la tiene y la agrega
-  s_2022.classList.toggle('hidden');   // la tiene y la quita
+
+function terceraSlide() {
+  s_2024.classList.toggle('hidden')
+  s_2023.classList.toggle('hidden')
 }
-  
-  // vuelta
-  
-function segundaSlideVuelta() {
-  s_2022.classList.toggle('hidden');   // no la tiene y la agrega
-  s_2023.classList.toggle('hidden');   // la tiene y la quita
-  
+
+function cuartaSlide() {
+  s_2023.classList.toggle('hidden')
+  s_2022.classList.toggle('hidden')
 }
-  
-function primeraSlideVuelta() {
-  s_2023.classList.toggle('hidden');   // no la tiene y la agrega
-  s_proximos.classList.toggle('hidden');   // la tiene y la quita
-  
+
+function backToTerceraSlide() {
+  s_2022.classList.toggle('hidden')
+  s_2023.classList.toggle('hidden')
+}
+
+function backToSegundaSlide() {
+  s_2023.classList.toggle('hidden')
+  s_2024.classList.toggle('hidden')
+}
+
+function backToPrimeraSlide() {
+  s_2024.classList.toggle('hidden')
+  s_proximos.classList.toggle('hidden')
 }
 
 // swiper years 
@@ -147,33 +154,38 @@ var swiper_years = new Swiper(".swiper_years", {
 });
 
 // slide funcion!
+let numbers = 0
 
-var numeros = 3;
-
-swiper_years.on('slideChange', function () {
+ swiper_years.on('slideChange', slide => {
   
- if (this.activeIndex === 1 && (numeros==3 ||numeros==0)) { // ida segunda slide
-    segundaSlide();
-    numeros = 2;
-    console.log(numeros);
-
-   } else if (this.activeIndex === 1 && (numeros==1)){  // vuelta segunda slide
-     segundaSlideVuelta();
-     numeros = 2;
-    console.log(numeros);
-
-   } else if (this.activeIndex === 2)  {  // solo ida tercera slide
-       tercerSlide();
-       numeros = 1;
-       console.log(numeros);
-
-   } else if (this.activeIndex === 0 && numeros==2) {
-       primeraSlideVuelta();
-       numeros = 0;
-       console.log(numeros); // esto funciona osea la variable
-   }
-
-});
+  
+  if (slide.activeIndex == 1 && numbers == 0) {
+    segundaSlide()
+    numbers = 1
+    console.log(slide.activeIndex)
+  } else if (slide.activeIndex == 2 && numbers == 1) {
+    terceraSlide()
+    numbers = 2
+    console.log(slide.activeIndex)
+  } else if (slide.activeIndex == 3 && numbers == 2) {
+    cuartaSlide()
+    numbers = 3
+    console.log(slide.activeIndex)
+  } else if (slide.activeIndex == 2 && numbers == 3) {
+    backToTerceraSlide()
+    numbers = 2
+    console.log(slide.activeIndex)
+  } else if (slide.activeIndex == 1 && numbers == 2) {
+    backToSegundaSlide()
+    numbers = 1
+    console.log(slide.activeIndex)
+  } else if (slide.activeIndex == 0 && numbers == 1) {
+    backToPrimeraSlide()
+    numbers = 0
+    console.log(slide.activeIndex)
+  }
+  
+ });
 
 // SWIPER INICIO 
 
